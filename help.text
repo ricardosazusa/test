@@ -1,0 +1,18 @@
+所有可用命令
+模块1：随机强密码生成
+Pass_gen
+默认12位密码
+python cli.py pass-gen
+自定义密码长度
+python cli.py pass-gen -l 20
+# 等价长参数写法
+python cli.py pass-gen --length 20
+模块2：时间戳转换
+time_conv
+不传参数：获取当前秒级时间戳
+python cli.py time-conv
+传—ts参数：时间戳转标准日期时间
+python cli.py time-conv --ts 1784721000
+模块3：查询本机公网IP与归属地IP
+ip
+python cli.py ip
