@@ -26,5 +26,5 @@ jobs:
       - name: CLI自动化功能测试
         run: |
           python cli.py version
-          python cli.py pass_gen -l 12
-          python cli.py time_conv
+          python cli.py pass-gen -l 12
+          python cli.py time-conv
